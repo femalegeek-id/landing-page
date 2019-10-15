@@ -1,0 +1,76 @@
+*{
+    font-size: 18px;
+}
+:root{
+    --pink-light-fg:#f05c8e;
+    --pink-fg:#ed4a81;
+    --pink-dark-fg:#dd1b5c;
+    --white-fg:rgb(240, 240, 240)
+}
+p,h1,h2,h3,h4,h5,a,span{
+    font-family: 'Questrial'
+  }
+  a{
+      font-size: 1em;
+  }
+.shadow-bottom{
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 var(--blue-jobnet);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 var(--blue-jobnet);
+    z-index: 999;
+}
+.logo-header{
+    width:80px;
+    height: auto;
+}
+.bg-pink-fg{
+    background-color:var(--pink-light-fg)
+}
+#nav-fg .navbar-nav li a{
+    color:var(--white-fg) !important;
+    min-width:100px;
+    text-align: center;
+    font-size:1em;
+    font-weight: bold; 
+    margin-left:5px; 
+}
+#nav-fg .navbar-nav li a:hover{
+    background: var(--white-fg);
+    border-radius: 5px;
+    color:var(--pink-light-fg) !important;
+    transition: all 0.3s ease;
+}
+#carouselFg{
+    position:relative
+}
+#carouselFgText{
+    position: absolute;
+    z-index: 3;
+    background: transparent;
+    top:50%;
+}
+@media (min-width:1200px){
+ 
+}
+#slide-1{
+    height: 60vh;
+    position:relative;
+    background:linear-gradient(rgba(36, 54, 101, 0.89), rgba(0, 0, 0, 0.69) ), url('../images/header-female-geek.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.text-pink-fg{
+    color:var(--pink-fg)
+}
+.btn-pink-fg{
+    color:var(--white-fg);
+    background:var(--pink-fg);
+    font-weight: bold;
+    border-radius:5px;
+}
+.btn-pink-fg:hover{
+    color:var(--pink-fg);
+    background:var(--white-fg);
+    font-weight: bold;
+    border-radius:5px;
+}
