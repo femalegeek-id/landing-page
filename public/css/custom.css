@@ -54,7 +54,7 @@ p,h1,h2,h3,h4,h5,a,span{
 #slide-1{
     height: 60vh;
     position:relative;
-    background:linear-gradient(rgba(36, 54, 101, 0.89), rgba(0, 0, 0, 0.69) ), url('../images/header-female-geek.png');
+    background:linear-gradient(rgba(36, 54, 101, 0.89), rgba(0, 0, 0, 0.69) ), url('../img/header-female-geek.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
